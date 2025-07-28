@@ -1,9 +1,8 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaYoutube, FaFacebook, FaTelegram } from "react-icons/fa";
 import {
   RxDiscordLogo,
   RxGithubLogo,
   RxInstagramLogo,
-  RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
 
@@ -57,6 +56,33 @@ export const SKILL_DATA = [
     height: 80,
   },
   {
+    skill_name: "Material UI",
+    image: "mui.png",
+    width: 80,
+    height: 80,
+  },
+] as const;
+
+export const SOCIALS = [
+  {
+    name: "Instagram",
+    icon: RxInstagramLogo,
+    link: "https://www.instagram.com/buriyef_/",
+  },
+  {
+    name: "Facebook",
+    icon: FaFacebook,
+    link: "https://www.facebook.com/shaxriyor.buriyev.1/",
+  },
+  {
+    name: "Facebook",
+    icon: FaTelegram,
+    link: "https://t.me/CanSayes",
+  }
+] as const;
+
+export const FRONTEND_SKILL = [
+  {
     skill_name: "Next.js 14",
     image: "next.png",
     width: 80,
@@ -81,102 +107,6 @@ export const SKILL_DATA = [
     height: 80,
   },
   {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
-  },
-] as const;
-
-export const SOCIALS = [
-  {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
-  },
-  {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
-  },
-] as const;
-
-export const FRONTEND_SKILL = [
-  {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Material UI",
-    image: "mui.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-] as const;
-
-export const BACKEND_SKILL = [
-  {
-    skill_name: "Node.js",
-    image: "node.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "Express.js",
     image: "express.png",
     width: 80,
@@ -194,6 +124,10 @@ export const BACKEND_SKILL = [
     width: 55,
     height: 55,
   },
+] as const;
+
+export const BACKEND_SKILL = [
+  
   {
     skill_name: "PostgreSQL",
     image: "postgresql.png",
@@ -228,32 +162,16 @@ export const FULLSTACK_SKILL = [
     height: 70,
   },
   {
-    skill_name: "Tauri",
-    image: "tauri.png",
-    width: 70,
-    height: 70,
-  },
-  {
     skill_name: "Docker",
     image: "docker.png",
     width: 70,
     height: 70,
   },
-
   {
     skill_name: "Figma",
     image: "figma.png",
     width: 50,
     height: 50,
-  },
-] as const;
-
-export const OTHER_SKILL = [
-  {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
   },
 ] as const;
 
@@ -293,7 +211,7 @@ export const FOOTER_DATA = [
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/Shake0707",
       },
       {
         name: "Discord",
@@ -309,11 +227,6 @@ export const FOOTER_DATA = [
         name: "Instagram",
         icon: RxInstagramLogo,
         link: "https://instagram.com",
-      },
-      {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://twitter.com",
       },
       {
         name: "Linkedin",
@@ -338,7 +251,7 @@ export const FOOTER_DATA = [
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "mailto:shaxriyorburiyev7@gmail.com",
       },
     ],
   },
@@ -360,5 +273,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/Shake0707/MyPortfolio",
 };
